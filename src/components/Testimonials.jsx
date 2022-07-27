@@ -67,7 +67,7 @@ export function Testimonials() {
             Testimonials 
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Working across all sectors, from small to large businesses we've proven to be reliable partners and able to deliver on a variety of requirements.
+            {`Working across all sectors, from small to large businesses we've proven to be reliable partners and able to deliver on a variety of requirements.`}
           </p>
         </div>
         <ul className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">

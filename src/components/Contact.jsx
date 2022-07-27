@@ -18,7 +18,7 @@ function SwirlyDoodle({ className }) {
       />
     </svg>
   )
-}
+} 
 
 
 export function Contact() {
@@ -38,7 +38,7 @@ export function Contact() {
             projects of any size.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, or how demanding your requirements are, we're keen to hear from you!
+            {`It doesn’t matter what size your business is, or how demanding your requirements are, we're keen to hear from you!`}
           </p>
         </div>
         <div class="rounded-lg relative">
@@ -49,7 +49,7 @@ export function Contact() {
             <div class="bg-rose-500  rounded-lg overflow-hidden py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
               <div class="max-w-lg mx-auto">
                 <h2 class="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">Get in touch</h2>
-                <p class="mt-3 text-lg leading-6 text-white">We'd love to hear from you. get in touch with us and we should get back to you the same working day.</p>
+                <p class="mt-3 text-lg leading-6 text-white">{`We'd love to hear from you. get in touch with us and we should get back to you the same working day.`}</p>
                 <dl class="mt-8 text-base text-white">
                   <div>
                     <dt class="sr-only">Registered Address</dt>
@@ -61,38 +61,38 @@ export function Contact() {
                     </dd>
                   </div>
                   <div class="mt-3">
-                    <dt class="sr-only">Email</dt>
+                    <dt class="sr-only">{`Email`}</dt>
                     <dd class="flex">
                       <svg class="flex-shrink-0 h-6 w-6 text-white-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                       </svg>
-                      <span class="ml-3">hello@kimchidigital.com</span>
+                      <span class="ml-3">{`hello@kimchidigital.com`}</span>
                     </dd>
                   </div>
                 </dl>
                 <p class="mt-6 font-bold text-base text-white">
                   Looking for careers?
-                  <span class="font-medium text-white-700"> We're open to hearing from you too!</span>
+                  <span class="font-medium text-white-700">{`We're open to hearing from you too!`}</span>
                 </p>
               </div>
             </div>
             <div class="py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
-              <div class="max-w-lg mx-auto lg:max-w-none">
+              <div class="max-w-lg mx-auto lg:max-w-none"> 
                 <form action="/api/contact" method="POST" class="grid grid-cols-1 gap-y-6" data-netlify="true">
                   <div>
-                    <label for="full-name" class="sr-only">Full name</label>
+                    <label htmlFor="full-name" class="sr-only">Full name</label>
                     <input type="text" name="full-name" id="full-name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border-gray-300 rounded-md" placeholder="Full name" />
                   </div>
                   <div>
-                    <label for="email" class="sr-only">Email</label>
+                    <label htmlFor="email" class="sr-only">Email</label>
                     <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border-gray-300 rounded-md" placeholder="Email" />
                   </div>
                   <div>
-                    <label for="phone" class="sr-only">Phone</label>
+                    <label htmlFor="phone" class="sr-only">Phone</label>
                     <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border-gray-300 rounded-md" placeholder="Phone" />
                   </div>
                   <div>
-                    <label for="message" class="sr-only">Message</label>
+                    <label htmlFor="message" class="sr-only">Message</label>
                     <textarea id="message" name="message" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border border-gray-300 rounded-md" placeholder="Message"></textarea>
                   </div>
                   <div>

@@ -1,12 +1,12 @@
 import Image from 'next/image'
 
 import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
+import { Container } from '@/components/Container' 
 import logoGatsby from '@/images/logos/gatsby.svg'
 import logoDrupal from '@/images/logos/drupal.svg'
 import logoFirebase from '@/images/logos/firebase.svg'
 import logoReact from '@/images/logos/react.svg'
-import logoStorybook from '@/images/logos/storybook.svg'
+import logoStorybook from '@/images/logos/storybook.svg' 
 
 export function Hero() {
   return (
@@ -27,7 +27,7 @@ export function Hero() {
         to life
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        We're a small digital agency in York with big plans. Whether you have an idea for a new service, or want to enhance something that already exists, we'd love to hear from you!  
+        {`We're a small digital agency in York with big plans. Whether you have an idea for a new service, or want to enhance something that already exists, we'd love to hear from you!`}
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="#contact">Get in touch</Button>

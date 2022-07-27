@@ -144,7 +144,7 @@ function FeaturesMobile() {
                 src={feature.image}
                 alt=""
                 layout="fill"
-                object="contain"
+                object="contain" 
               /> 
             </div>
           </div>
