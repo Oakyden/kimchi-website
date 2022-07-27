@@ -41,18 +41,18 @@ export function Contact() {
             {`It doesn’t matter what size your business is, or how demanding your requirements are, we're keen to hear from you!`}
           </p>
         </div>
-        <div class="rounded-lg relative">
-          <div class="absolute inset-0">
-            <div class="absolute inset-y-0 left-0 rounded-lg overflow-hidden bg-gray-50"></div>
+        <div className="rounded-lg relative">
+          <div className="absolute inset-0">
+            <div className="absolute inset-y-0 left-0 rounded-lg overflow-hidden bg-gray-50"></div>
           </div>
-          <div class="mt-8 rounded-lg overflow-hidden relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
-            <div class="bg-rose-500  rounded-lg overflow-hidden py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
-              <div class="max-w-lg mx-auto">
-                <h2 class="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">Get in touch</h2>
-                <p class="mt-3 text-lg leading-6 text-white">{`We'd love to hear from you. get in touch with us and we should get back to you the same working day.`}</p>
-                <dl class="mt-8 text-base text-white">
+          <div className="mt-8 rounded-lg overflow-hidden relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
+            <div className="bg-rose-500  rounded-lg overflow-hidden py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
+              <div className="max-w-lg mx-auto">
+                <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">Get in touch</h2>
+                <p className="mt-3 text-lg leading-6 text-white">{`We'd love to hear from you. get in touch with us and we should get back to you the same working day.`}</p>
+                <dl className="mt-8 text-base text-white">
                   <div>
-                    <dt class="sr-only">Registered Address</dt>
+                    <dt className="sr-only">Registered Address</dt>
                     <dd>
                       <p>20-22 Wenlock Road</p>
                       <p>London</p>
@@ -60,43 +60,43 @@ export function Contact() {
                       <small>Registered Address - No post please!</small>
                     </dd>
                   </div>
-                  <div class="mt-3">
-                    <dt class="sr-only">{`Email`}</dt>
-                    <dd class="flex">
-                      <svg class="flex-shrink-0 h-6 w-6 text-white-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <div className="mt-3">
+                    <dt className="sr-only">{`Email`}</dt>
+                    <dd className="flex">
+                      <svg className="flex-shrink-0 h-6 w-6 text-white-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                       </svg>
-                      <span class="ml-3">{`hello@kimchidigital.com`}</span>
+                      <span className="ml-3">{`hello@kimchidigital.com`}</span>
                     </dd>
                   </div>
                 </dl>
-                <p class="mt-6 font-bold text-base text-white">
+                <p className="mt-6 font-bold text-base text-white">
                   Looking for careers?
-                  <span class="font-medium text-white-700">{`We're open to hearing from you too!`}</span>
+                  <span className="font-medium text-white-700">{`We're open to hearing from you too!`}</span>
                 </p>
               </div>
             </div>
-            <div class="py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
-              <div class="max-w-lg mx-auto lg:max-w-none"> 
-                <form action="/api/contact" method="POST" class="grid grid-cols-1 gap-y-6" data-netlify="true">
+            <div className="py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+              <div className="max-w-lg mx-auto lg:max-w-none"> 
+                <form action="/api/contact" method="POST" className="grid grid-cols-1 gap-y-6" data-netlify="true">
                   <div>
-                    <label htmlFor="full-name" class="sr-only">Full name</label>
-                    <input type="text" name="full-name" id="full-name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border-gray-300 rounded-md" placeholder="Full name" />
+                    <label htmlFor="full-name" className="sr-only">Full name</label>
+                    <input type="text" name="full-name" id="full-name" autoComplete="name" className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border-gray-300 rounded-md" placeholder="Full name" />
                   </div>
                   <div>
-                    <label htmlFor="email" class="sr-only">Email</label>
-                    <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border-gray-300 rounded-md" placeholder="Email" />
+                    <label htmlFor="email" className="sr-only">Email</label>
+                    <input id="email" name="email" type="email" autoComplete="email" className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border-gray-300 rounded-md" placeholder="Email" />
                   </div>
                   <div>
-                    <label htmlFor="phone" class="sr-only">Phone</label>
-                    <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border-gray-300 rounded-md" placeholder="Phone" />
+                    <label htmlFor="phone" className="sr-only">Phone</label>
+                    <input type="text" name="phone" id="phone" autoComplete="tel" className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border-gray-300 rounded-md" placeholder="Phone" />
                   </div>
                   <div>
-                    <label htmlFor="message" class="sr-only">Message</label>
-                    <textarea id="message" name="message" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border border-gray-300 rounded-md" placeholder="Message"></textarea>
+                    <label htmlFor="message" className="sr-only">Message</label>
+                    <textarea id="message" name="message" rows="4" className="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-rose-500 focus:border-rose-500 border border-gray-300 rounded-md" placeholder="Message"></textarea>
                   </div>
                   <div>
-                    <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500">Submit</button>
+                    <button type="submit" className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500">Submit</button>
                   </div>
                 </form>
               </div>
