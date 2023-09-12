@@ -6,7 +6,8 @@ import logoGatsby from '@/images/logos/gatsby.svg'
 import logoDrupal from '@/images/logos/drupal.svg'
 import logoFirebase from '@/images/logos/firebase.svg'
 import logoReact from '@/images/logos/react.svg'
-import logoStorybook from '@/images/logos/storybook.svg' 
+import logoStorybook from '@/images/logos/storybook.svg'
+import logoLaravel from '@/images/logos/laravel.svg'
 
 export function Hero() {
   return (
@@ -37,27 +38,26 @@ export function Hero() {
           Our favoured technologies
         </p>
         <ul className="mt-4 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0">
-          {[
+        {[
             [
-              { name: 'StaticKit', logo: logoStorybook},
-              { name: 'React', logo: logoReact }
+              { name: 'Transistor', logo: logoFirebase},
+              { name: 'Tuple', logo: logoReact },
+              { name: 'StaticKit', logo: logoGatsby},
             ],
             [
-              { name: 'Drupal', logo: logoDrupal },
-              { name: 'Gatsby', logo: logoGatsby },
-              { name: 'Firebase', logo: logoFirebase },
+              { name: 'Mirage', logo: logoDrupal },
+              { name: 'Laravel', logo: logoLaravel },
+              { name: 'Statamic', logo: logoStorybook},
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
-              <ul className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0">
+              <ul
+                role="list"
+                className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
+              >
                 {group.map((company) => (
                   <li key={company.name} className="flex">
-                    <Image
-                      src={company.logo}
-                      alt={company.name}
-                      layout="fixed"
-                      unoptimized
-                    />
+                    <Image src={company.logo} alt={company.name} unoptimized />
                   </li>
                 ))}
               </ul>

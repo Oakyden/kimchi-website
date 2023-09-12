@@ -5,10 +5,11 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/gradient.png'
-import latushealthscreen from '@/images/screenshots/latushealthscreen.png'
-import lawwalesscreen from '@/images/screenshots/lawwalesscreen.png'
-import macallanscreen from '@/images/screenshots/macallanscreen.png'
+import latushealthmock from '@/images/screenshots/latushealthmock.png'
+import lawwalesmock from '@/images/screenshots/lawwalesmock.png'
+import macallanmock from '@/images/screenshots/macallanmock.png'
 import wateraidscreen from '@/images/screenshots/wateraidscreen.png'
+import wateraidmock from '@/images/screenshots/wateraidmock.png'
 import waterAidWhite from '@/images/logos/wateraid-white.webp'
 import macallan from '@/images/logos/macallan.png'
 import latusHorizWhite from '@/images/logos/latus-horiz-white.png'
@@ -21,28 +22,28 @@ const features = [
     logo: waterAidWhite,
     description:
       `Via a previous role while working for Access in Manchester. Deliverables included; rolling out new interactive content such as quizzes on the site via the H5P plugin, integrating 'shorthand' for interactive pages for TV-based campaigns, re-design and launch of multiple home pages for various different WaterAid countries.`,
-    image: wateraidscreen
+    image: wateraidmock
   },
   {
     title: 'The Macallan',
     logo: macallan,
     description:
       "The Macallan needed alterations to their checkout experience to handle US customers. While most customers go via their shopify checkout, US customers needed a bespoke custom React based checkout that utilised the Thristie retailer network API. Payments are taken via braintree payment gateway.",
-    image: macallanscreen,
+    image: macallanmock,
   },
   {
     title: 'Latus Health',
     logo: latusHorizWhite,
     description:
       "Latus Health are an occupational health company seeing rapid growth over the past few years. In our time with them we have; delivered a custom CRM to handle client data, built and launched a bespoke EMR system (see Yodha) and accompanying mobile app as well as previously launched another wellbeing app that monitored steps, weight and diet (OK2HealthyLife).",
-    image: latushealthscreen,
+    image: latushealthmock,
   },
   {
     title: 'Law Wales',
     logo: wgLogo,
     description:
       "The Welsh Government required a new site to cover Welsh law. Built with Drupal, and themed to follow the government GEL style guidelines, the site also features bilingual translations in English and Welsh.",
-    image: lawwalesscreen,
+    image: lawwalesmock,
   },
 ]
 
@@ -74,7 +75,7 @@ export function PrimaryFeatures() {
         <Image
           src={backgroundImage}
           alt=""
-          width={2245}
+          width={3045}
           height={1636}
           layout="fixed"
           unoptimized
@@ -86,7 +87,7 @@ export function PrimaryFeatures() {
             Our previous work
           </h2>
           <p className="mt-6 text-lg tracking-tight text-rose-100">
-            {`Over the years, via different jobs and roles, we've worked on a variety of interesting work.`}
+            {`Over the years, we've worked on a variety of interesting work.`}
           </p>
         </div>
         <Tab.Group

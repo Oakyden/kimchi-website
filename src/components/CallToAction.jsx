@@ -14,7 +14,7 @@ export function CallToAction() {
         <Image
           src={backgroundImage}
           alt=""
-          width={2347}
+          width={3047}
           height={1244}
           layout="fixed"
           unoptimized
@@ -28,7 +28,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             {`It’s time to get that idea out of your head and into the world. Whether it's a practical internal tool such as a sales CRM or a public facing webapp / mobile app, we're keen to hear from you.`}
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button href="#contact" color="white" className="mt-10">
             Get in touch
           </Button>
         </div>

@@ -49,7 +49,7 @@ export function Contact() {
             <div className="bg-rose-500  rounded-lg overflow-hidden py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
               <div className="max-w-lg mx-auto">
                 <h2 className="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">Get in touch</h2>
-                <p className="mt-3 text-lg leading-6 text-white">{`We'd love to hear from you. get in touch with us and we should get back to you the same working day.`}</p>
+                <p className="mt-3 text-lg leading-6 text-white">{`We'd love to hear from you. Get in touch with us and we should get back to you the same working day.`}</p>
                 <dl className="mt-8 text-base text-white">
                   <div>
                     <dt className="sr-only">Registered Address</dt>
@@ -57,7 +57,7 @@ export function Contact() {
                       <p>20-22 Wenlock Road</p>
                       <p>London</p>
                       <p>N1 7GU</p>
-                      <small>Registered Address - No post please!</small>
+                      <small>We work mainly from Yorkshire. The above is our Registered Address - no post please!</small>
                     </dd>
                   </div>
                   <div className="mt-3">
@@ -72,7 +72,7 @@ export function Contact() {
                 </dl>
                 <p className="mt-6 font-bold text-base text-white">
                   Looking for careers?
-                  <span className="font-medium text-white-700">{`We're open to hearing from you too!`}</span>
+                  <span className="font-medium text-white-700">{` We're open to hearing from you too!`}</span>
                 </p>
               </div>
             </div>

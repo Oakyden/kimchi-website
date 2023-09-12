@@ -23,10 +23,11 @@ const testimonials = [
     {
       content:
       <>
-      <p>         
-        I had the privilege today, of interviewing Alan Oakden, and getting a glimpse into his genius mind. Alan is the brains behind Yodha Health and leads our R&D projects at LATUS, which is quickly becoming a vital part of our business, and a key differentiator against the rest of the dinosaur occupational health industry. <a className="text-rose-600" href="https://www.linkedin.com/posts/jack-latus-12497384_health-healthtech-aihealthcare-activity-6892573773187686400-FuTT?utm_source=linkedin_share&utm_medium=member_desktop_web">LinkedIn Post</a>
-      </p>
-      </>,
+        I had the privilege today of hosting a podcast with Alan Oakden, and getting a glimpse into his genius mind. 
+        Alan is the brains behind Yodha Health and leads our R&D projects at LATUS, which is quickly becoming a vital part of our business, 
+        and a key differentiator against the rest of the dinosaur occupational health industry.  <a className="text-rose-600" href="https://www.linkedin.com/posts/jack-latus-12497384_health-healthtech-aihealthcare-activity-6892573773187686400-FuTT?utm_source=linkedin_share&utm_medium=member_desktop_web">LinkedIn Post</a>
+      </>
+,
       author: {
         name: 'Jack Latus',
         role: 'CEO at Latus Health',
@@ -38,7 +39,7 @@ const testimonials = [
     {
       content: `A pleasure to work with! Not only was time taken to revamp the gulp files on the WaterAid project to ensure the front end development experience was easier, time was also dedicated to helping peers and answering any questions.`,
       author: {
-        name: 'Sang Lostrie',
+        name: 'Rakesh James',
         role: 'Formerly Senior Developer at Access',
         image: avatarImage3,
       },

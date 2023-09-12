@@ -35,7 +35,7 @@ const faqs = [
       question:
         'Should I seek a larger, more established agency for my project?',
       answer:
-        `From previous experience in the industry, very often when you work with a large agency in reality you are only receiving direct attention from two or three people within the business. While large agencies do come with some reputation and experience, the reality is they will only dedicate a few staff on your project, all of whom will also be dividing their time across other clients, often diverting their attention from your project and for a much higher price.`,
+        `From previous experience in the industry, very often when you work with a large agency in reality you are only receiving direct attention from two or three people within the business. While large agencies do come with some reputation and experience, the reality is they will only dedicate a few staff on your project, all of whom will also be dividing their time across other clients, often diverting their attention from your project and for a much higher price. A freelancer / smaller agency will dedicate more time solely to your project, while providing more availability for one to one chats.`,
     },
   ],
   [
@@ -43,7 +43,7 @@ const faqs = [
       question:
         'What if I want to make changes to the final product?',
       answer:
-        `The scope of work at the start of a project is key to success. We'll ask a series of questions that will get you thinking in detail about what you want to achieve. We take our time at the starting phase to make sure all requirements are captured to avoid any missed functionality later down the line. Nevertheless, lessons are learned and requirements change as projects are done, we use 'Agile' methodology on our projects, regularly delivering new functionality for testing at the earliest possible stage, to ensure any amendments or changes are captured as soon as possible.`,
+        `The scope of work at the start of a project is key to success. We'll ask a series of questions that will get you thinking in detail about what you want to achieve. We take our time at the starting phase to make sure all requirements are captured to avoid any missed functionality later down the line. Nevertheless, lessons are learned and requirements change as projects are done, we use 'Agile' methodology on our projects, regularly delivering new functionality for testing at the earliest possible stage, to ensure the client can review work as early as possible and any amendments or changes are captured as soon as possible.`,
     },
     {
       question: 'Do you do payment upfront or on completion?',
