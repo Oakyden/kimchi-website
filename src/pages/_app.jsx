@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
     <>
     <Component {...pageProps} />
     <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11405710909" />
-    <Script>
+    <Script id ="adwords">
       {  `      
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments)}
