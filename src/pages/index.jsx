@@ -9,8 +9,10 @@ import { Contact } from '@/components/Contact'
 import { PrimaryFeatures } from '@/components/Portfolio'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
+import { Helmet } from 'react-helmet'
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -20,6 +22,17 @@ export default function Home() {
           content="A york based digital agency specialising in React, React Native and Drupal."
         />
       </Head>
+      <Helmet>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11405710909">
+        </script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-11405710909');
+        </script>
+      </Helmet>
       <Header />
       <main>
         <Hero />
