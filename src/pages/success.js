@@ -24,9 +24,9 @@ export default function Success() {
                 href="/register"
                 className="font-medium text-rose-600 hover:underline"
               >
-                Thank you,
+                {`Thank you,`}
               </Link>{' '}
-              we'll get back to you soon.
+              {`we'll get back to you soon.`}
             </p>
           </div>
         </div>
