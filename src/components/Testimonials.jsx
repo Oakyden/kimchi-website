@@ -4,8 +4,6 @@ import { Container } from '@/components/Container'
 import avatarImage1 from '@/images/avatars/avatar-1.jpeg'
 import avatarImage2 from '@/images/avatars/avatar-2.jpeg'
 import avatarImage3 from '@/images/avatars/avatar-3.jpeg'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
 
 const testimonials = [
   [

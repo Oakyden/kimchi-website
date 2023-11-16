@@ -28,7 +28,7 @@ export function Hero() {
         to life
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        {`We're a small digital agency in York with big plans. Whether you have an idea for a new service, or want to enhance something that already exists, we'd love to hear from you!`}
+        {`We are a web and mobile app development agency based in York, UK. Whether you have an idea for a new service, or want to enhance something that already exists, we'd love to hear from you!`}
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="#contact">Get in touch</Button>

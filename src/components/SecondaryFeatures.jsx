@@ -42,9 +42,9 @@ const features = [
   },
   {
     name: 'Yodha',
-    summary: "A webapp and mobile app, together providing the world's first 'connected health platform'",
+    summary: "A web app and mobile app, together providing the world's first 'connected health platform'",
     description:
-      "Yodha is Latus Health's all new connected health platform. The webapp provides a dashboard for appointment scheduling as well as medical data capturing, while the accompanying mobile app provides wellbeing perks to staff via third party integrations such as vouchers off big brands through the Simfoni retailer network, with GP and counselling through Health Hero.",
+      "Yodha is Latus Health's all new connected health platform. The web app provides a dashboard for appointment scheduling as well as medical data capturing, while the accompanying mobile app provides wellbeing perks to staff via third party integrations such as vouchers off big brands through the Simfoni retailer network, with GP and counselling through Health Hero.",
     image: yodhaAppStore,
     icon: function ReportingIcon() {
       let id = useId()
@@ -220,7 +220,7 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Mobile Apps.
+            Mobile Apps
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             By using React Native, one set of code can produce two native apps for both iOS and Android. Fully compatible with the Play Store / App Store.

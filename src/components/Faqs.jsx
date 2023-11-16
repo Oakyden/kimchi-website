@@ -10,20 +10,23 @@ const faqs = [
       answer:
         `Of course! We can do new sites or help maintain existing ones. If you are looking for an enterprise site that can scale then we'd advise Drupal - and we can help with that too!`,
     },
+
     {
-      question: 'Do you do mobile apps?',
-      answer: 'Absolutely, you can see some examples further up this page.',
-    },
-    {
-      question: 'Are you available for open-ended contract work?',
+      question:
+        'What specialisms / certifications do you have?',
       answer:
-        `Yes, we're able to supplement your existing team by providing contractors to work with (primarily React, React Native, Gatsby and Drupal front end work), use the contact form to let us know your requirements and we'll get back to you ASAP.`,
+        `We are Acquia certified front-end specialists, meaning that we are certified by the largest Drupal cloud-platform for front-end development. We're also very well versed with React, a modern web technology that is behind a lot of the web you see today - especially if you have 'logged in' to services and used a dashboard / account management feature. React is also transferable to 'React Native' whereby one set of code can be used to make a mobile app ready for both the Play Store and App Store.`,
     },
     {
       question: 'Do you provide design and UI / UX work',
       answer:
         `We are familiar with tools such as Adobe XD, Figma and UIzard. If you wish for your application to be visually designed before a line of code is written, then we are happy to do so.`,
     },
+    {
+      question: 'Are you available for open-ended contract work?',
+      answer:
+        `Yes, we're able to supplement your existing team by providing contractors to work with (primarily React, React Native, Gatsby and Drupal front end work), use the contact form to let us know your requirements and we'll get back to you ASAP.`,
+    }
   ],
   [
     {
@@ -37,6 +40,10 @@ const faqs = [
       answer:
         `From previous experience in the industry, very often when you work with a large agency in reality you are only receiving direct attention from two or three people within the business. While large agencies do come with some reputation and experience, the reality is they will only dedicate a few staff on your project, all of whom will also be dividing their time across other clients, often diverting their attention from your project and for a much higher price. A freelancer / smaller agency will dedicate more time solely to your project, while providing more availability for one to one chats.`,
     },
+    {
+      question: 'Do you do mobile apps?',
+      answer: 'Absolutely, you can see some examples further up this page.',
+    }
   ],
   [
     {

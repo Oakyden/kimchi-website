@@ -26,7 +26,7 @@ export function CallToAction() {
             Get in touch
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            {`It’s time to get that idea out of your head and into the world. Whether it's a practical internal tool such as a sales CRM or a public facing webapp / mobile app, we're keen to hear from you.`}
+            {`It’s time to get that idea out of your head and into the world. Whether it's a practical internal tool such as a sales CRM or a public facing web app / mobile app, we're keen to hear from you.`}
           </p>
           <Button href="#contact" color="white" className="mt-10">
             Get in touch

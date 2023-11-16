@@ -17,7 +17,7 @@ export default function Home() {
         <title>Kimchi Digital - Website and Mobile App Development </title>
         <meta
           name="description"
-          content="A york based digital agency specialising in React, React Native and Drupal."
+          content="A York based web development and mobile app development agency specialising in React, React Native and Drupal."
         />
       </Head>
       <Header />

@@ -21,7 +21,7 @@ const features = [
     title: 'WaterAid',
     logo: waterAidWhite,
     description:
-      `Via a previous role while working for Access in Manchester. Deliverables included; rolling out new interactive content such as quizzes on the site via the H5P plugin, integrating 'shorthand' for interactive pages for TV-based campaigns, re-design and launch of multiple home pages for various different WaterAid countries.`,
+      `Via a previous role while working for Access in Manchester. Deliverables included; rolling out new interactive content such as quizzes on the site via the H5P plugin, integrating 'shorthand' for interactive pages for TV-based campaigns, re-design and launch of multiple home pages for various different WaterAid country websites via the Drupal / Acquia multi-site setup.`,
     image: wateraidmock
   },
   {
@@ -35,7 +35,7 @@ const features = [
     title: 'Latus Health',
     logo: latusHorizWhite,
     description:
-      "Latus Health are an occupational health company seeing rapid growth over the past few years. In our time with them we have; delivered a custom CRM to handle client data, built and launched a bespoke EMR system (see Yodha) and accompanying mobile app as well as previously launched another wellbeing app that monitored steps, weight and diet (OK2HealthyLife).",
+      "Latus Health are an occupational health company seeing rapid growth over the past few years. In our time with them we have; delivered a custom React-based CRM to handle client data, built and launched a bespoke EMR system (see Yodha) and accompanying mobile app as well as previously launched another wellbeing app that monitored steps, weight and diet (OK2HealthyLife).",
     image: latushealthmock,
   },
   {
@@ -84,7 +84,7 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Our previous work
+            Our previous website and web app work
           </h2>
           <p className="mt-6 text-lg tracking-tight text-rose-100">
             {`Over the years, we've worked on a variety of interesting work.`}
