@@ -87,7 +87,7 @@ export function PrimaryFeatures() {
             Our previous website and web app work
           </h2>
           <p className="mt-6 text-lg tracking-tight text-rose-100">
-            {`Over the years, we've worked on a variety of interesting work.`}
+            {`Over the years, we've worked on a variety of interesting projects.`}
           </p>
         </div>
         <Tab.Group
