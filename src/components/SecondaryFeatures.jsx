@@ -4,12 +4,9 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
-import yodhaAppStore from '@/images/screenshots/yodha-store.png'
-import rmn from '@/images/screenshots/rmn-appstore.png'
-import outokumpu from '@/images/screenshots/outokumpu.png'
+import yodhaAppStore from '@/images/screenshots/yodha-store.webp'
+import rmn from '@/images/screenshots/rmn-appstore.webp'
+import outokumpu from '@/images/screenshots/outokumpu.webp'
 
 const features = [
   {

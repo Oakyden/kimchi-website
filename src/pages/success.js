@@ -21,7 +21,7 @@ export default function Success() {
             </h2>
             <p className="mt-2 text-sm text-gray-700">
               <Link
-                href="/register"
+                href="/"
                 className="font-medium text-rose-600 hover:underline"
               >
                 {`Thank you,`}
