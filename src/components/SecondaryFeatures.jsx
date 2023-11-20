@@ -4,7 +4,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import yodhaAppStore from '@/images/screenshots/yodha-store.webp'
+import yodhaAppStore from '@/images/screenshots/YodhaApp.jpeg'
 import rmn from '@/images/screenshots/rmn-appstore.webp'
 import outokumpuApp from '@/images/screenshots/outokumpuApp.png'
 
