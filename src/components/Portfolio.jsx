@@ -19,7 +19,7 @@ const features = [
     title: 'WaterAid',
     logo: waterAidWhite,
     description:
-      `Via a previous role while working for Access in Manchester. Deliverables included; rolling out new interactive content such as quizzes on the site via the H5P plugin, integrating 'shorthand' for interactive pages for TV-based campaigns, re-design and launch of multiple home pages for various different WaterAid country websites via the Drupal / Acquia multi-site setup.`,
+      `Deliverables included; rolling out new interactive content such as quizzes on the site via the H5P plugin, integrating 'shorthand' for interactive pages for TV-based campaigns, re-design and launch of multiple home pages for various different WaterAid country websites via the Drupal / Acquia multi-site setup.`,
     image: wateraid
   },
   {
